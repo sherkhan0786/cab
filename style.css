@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/cabbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-light {
+    background-color: #eaf0ff;
+}
+
+.header{
+    background: #eaf0ff;
+}
+
+footer{
+    background: #eaf0ff;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    /* margin-left: 89px; */
+}
+.main{
+    position: relative;
+}
+
+/* #display{
+    background: white;
+    color: black;
+    padding: 77px;
+} */
+
+.forrm{
+    box-shadow: 7px 6px 6px 6px;
+    border-radius: 10px;
+}
+.input-group-text, .form-select, #weight{
+    background: none;
+    background-color: #ebe6e6;
+    border: none;
+}
+
+.btn-block{
+    width: 100%;
+}
+
+.result{
+    color:white;
+}
+
+@media screen and (max-width: 575px)
+{
+    body{
+      /* margin-left: 50px; */
+      background: inherit;
+      margin-top: 0;
+    }
+    h1{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    .forrm{
+        /* padding: 0px; */
+    }
+}
